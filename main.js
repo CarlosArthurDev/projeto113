@@ -12,8 +12,10 @@ function setup(){
     tinticolor=""
 }
 function draw(){
-    image(video,0,0,450,450)
+    image(video,0,0,450,450)\
+    canvas(350,350)
     circle(450,450)
+    rect(450,450)
     
 }
 function filtro(){
